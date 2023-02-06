@@ -10,7 +10,7 @@ router.get('/customers', fetchCustomer)
 router.get('/customers/:id',fetchOneCustomer)
 router.put('/customers/:id', updateCustomer)
 router.delete('/customers/:id', deleteCustomer)
-
+// order
 router.post('/orders', createOrder)
 
 module.exports = router
