@@ -1,4 +1,3 @@
-const { INTEGER } = require("sequelize")
 
 module.exports = (sequelize, DataTypes) => {
 
