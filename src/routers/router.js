@@ -13,7 +13,7 @@ router.delete('/customers/:id', deleteCustomer)
 // order
 router.post('/orders', createOrder)
 
-module.exports = router
+module.exports = routerF
 
 
 
